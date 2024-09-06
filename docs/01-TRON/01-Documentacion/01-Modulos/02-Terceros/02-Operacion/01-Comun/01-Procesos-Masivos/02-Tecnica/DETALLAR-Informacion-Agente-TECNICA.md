@@ -1,0 +1,55 @@
+![Imagen LOGO](./00-Imagen/logo-TRON.png){ width="596" height="159" style="display: block; margin: 0 auto" }
+
+# DETALLAR Información del Agente en el Movimiento Diferido del Tercero (**Visión Técnica**)
+
+## **Modelo de datos involucrado**
+La tabla que interviene en esta operación es:
+
+| TABLA | DESCRIPCIÓN |
+|:--- |:--- |
+| T_THP_TRN_M_AGN                | TABLA BUZON AGENTE                                                                                  |
+
+| COLUMNA | CAMBIA VALOR | MOTIVO/VALOR | OBLIGATORIA | COMENTARIO |
+|:--- |:---: |:--- |:---: |:--- |
+| IDN_VAL | S | N.A. | SI | IDENTIFICADOR | 
+| IDN_SQN | S | N.A. | SI | SECUENCIA DENTRO DEL IDENTIFICADOR | 
+| PRC_THD_VAL | S | N.A. | NO | HILO | 
+| PRC_STS_VAL | S | N.A. | NO | SITUACION DEL PROCESO | 
+| CMP_VAL | S | N.A. | SI | COMPAÑIA | 
+| THP_DCM_TYP_VAL | S | N.A. | SI | TIPO DE COCUMENTO DEL TERCERO | 
+| THP_DCM_VAL | S | N.A. | SI | CODIGO DE DOCUMENTO DEL TERCERO | 
+| THP_ACV_VAL | S | N.A. | SI | ACTIVIDAD DEL TERCERO | 
+| THP_VAL | S | N.A. | SI | CODIGO DE TERCERO | 
+| ACE_VAL | S | N.A. | NO | CODIGO DE TERCERO EJECUTIVO | 
+| THR_LVL_VAL | S | N.A. | NO | TERCER NIVEL ESTRUCTURA COMERCIAL | 
+| DRC_AGN | S | N.A. | NO | AGENTE DIRECTO | 
+| AGN_TYP_VAL | S | N.A. | NO | TIPO AGENTE | 
+| ORN_VAL | S | N.A. | NO | CODIGO DE TERCERO ORGANIZADOR | 
+| AVS_VAL | S | N.A. | NO | TERCERO ASESOR | 
+| MTC_VAL | S | N.A. | NO | COMPENSACION | 
+| AGN_ASC_VAL | S | N.A. | NO | NUMERO DE COLEGIADO | 
+| CRL_DAT | S | N.A. | NO | FECHA INICIO CREDENCIAL | 
+| CRL_EXP_DAT | S | N.A. | NO | FECHA VENCIMIENTO CREDENCIAL | 
+| CTR_VAL | S | N.A. | NO | CONTRATO | 
+| CTR_RGS_DAT | S | N.A. | NO | FECHA ALTA CONTRATO | 
+| CTR_RMV_DAT | S | N.A. | NO | FECHA BAJA CONTRATO | 
+| THP_QLT_VAL | S | N.A. | NO | CALIDAD | 
+| SND_VAL | S | N.A. | NO | ENVIO - FORMA EN LA QUE SE ENVIA LOS DOCUMENTOS | 
+| THP_GRG_VAL | S | N.A. | NO | AGRUPAMIENTO DEL TERCERO | 
+| AGN_OBS_VAL | S | N.A. | NO | OBSERVACIONES | 
+| RTN_TYP_VAL | S | N.A. | NO | RETENCION | 
+| CMS_EXL | S | N.A. | NO | EXCLUIDO DE COMISIONES | 
+| PRE_NTC | S | N.A. | NO | AVISO DE PRIMAS | 
+| MAG_MTH | S | N.A. | NO | FORMA DE GESTION | 
+| CFT_VAL | S | N.A. | NO | CLASIFICACION | 
+| DSB_ROW | S | N.A. | NO | INHABILITADO | 
+| VLD_DAT | S | N.A. | SI | FECHA DE VALIDEZ | 
+| AGN_STS_TYP_VAL | S | N.A. | NO | SITUACION | 
+| BNF_CSS_VAL | S | N.A. | NO | CLASE DE BENEFICIARIO | 
+| THP_DSC_VAL | S | N.A. | NO | CAUSA DE INHABILITACION | 
+| DSB_PRC_TYP_VAL | S | N.A. | NO | PROCESO PARA EL QUE ESTA INHABILITADO | 
+| ACN_ORG_VAL | S | N.A. | NO | PRMERA ACCION QUE SE PRODUCE SOBRE EL REGISTRO ( (I)NSERTAR, (M)ODIFICAR  ) | 
+| USR_VAL | S | N.A. | SI | USUARIO QUE ACTUALIZO LA FILA | 
+| MDF_DAT | S | N.A. | SI | FECHA DE ACTUALIZACION DE LA FILA | 
+| ERR_IDN_VAL | S | N.A. | NO | CODIGO DE ERROR | 
+| THR_DST_HNL_VAL | S | N.A. | NO | TERCER CANAL DISTRIBUCION | 

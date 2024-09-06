@@ -1,0 +1,35 @@
+![Imagen LOGO](./00-Imagen/logo-TRON.png){ width="596" height="159" style="display: block; margin: 0 auto" }
+
+# DETALLAR Información de los Documentos Alternativos en el Movimiento Diferido del Tercero (**Visión Técnica**)
+
+## **Modelo de datos involucrado**
+La tabla que interviene en esta operación es:
+
+| TABLA | DESCRIPCIÓN |
+|:--- |:--- |
+| ML_THP_NWT_XX_ARM              | TABLA BUZON DOCUMENTOS ALTERNATIVOS                                                                 |
+
+| COLUMNA | CAMBIA VALOR | MOTIVO/VALOR | OBLIGATORIA | COMENTARIO |
+|:--- |:---: |:--- |:---: |:--- |
+| BTC_IDN_VAL | S | N.A. | SI | IDENTIFICADOR | 
+| SQN_VAL | S | N.A. | SI | SECUENCIA | 
+| CMP_VAL | S | N.A. | SI | COMPANIA | 
+| THP_DCM_TYP_VAL | S | N.A. | SI | TIPO DEL DOCUMENTO DEL TERCERO | 
+| THP_DCM_VAL | S | N.A. | SI | DOCUMENTO DEL TERCERO | 
+| THP_ACV_VAL | S | N.A. | SI | ACTIVIDAD TERCERO | 
+| ALR_THP_DCM_TYP_VAL | S | N.A. | SI | TIPO DEL DOCUMENTO DEL TERCERO ALTERNATIVO | 
+| ALR_THP_DCM_VAL | S | N.A. | SI | DOCUMENTO ALTERNATIVO | 
+| VLD_DAT | S | N.A. | SI | FECHA VALIDEZ | 
+| PRC_THD_VAL | S | N.A. | NO | HILO | 
+| PRC_STS_VAL | S | N.A. | NO | SITUACION DEL PROCESO | 
+| DSB_ROW | S | N.A. | SI | FILA DESHABILITADA | 
+| USR_VAL | S | N.A. | SI | USUARIO QUE ACTUALIZO LA FILA | 
+| MDF_DAT | S | N.A. | SI | FECHA MODIFICACION | 
+| ALR_THP_DCM_ISU_DAT | S | N.A. | NO | FECHA DE EMISION DEL DOCUMENTO ALTERNATIVO | 
+| ALR_THP_DCM_EXY_DAT | S | N.A. | NO | FECHA DE CADUCIDAD DEL DOCUMENTO ALTERNATIVO | 
+| ALR_THP_DCM_CNY_VAL | S | N.A. | NO | PAIS EMISOR DEL DOCUMENTO ALTERNATIVO | 
+| ALR_THP_DCM_CCK | S | N.A. | SI | MARCA DE DOCUMENTO ALTERNATIVO COMPROBADO | 
+| ALR_THP_DCM_CCK_DAT | S | N.A. | NO | FECHA DE COMPROBACION DEL DOCUMENTO ALTERNATIVO | 
+| ALR_THP_DCM_OBS_CCK_MTH | S | N.A. | NO | OBSERVACIONES DE COMPROBACION DEL DOCUMENTO ALTERNATIVO | 
+| ACN_ORG_VAL | S | N.A. | NO | ACCION ORIGEN | 
+| ERR_IDN_VAL | S | N.A. | NO | IDENTIFICADOR INTERNO DEL ERROR | 

@@ -1,0 +1,46 @@
+![Imagen LOGO](./00-Imagen/logo-TRON.png){ width="596" height="159" style="display: block; margin: 0 auto" }
+
+# DETALLAR Información de Contactos en el Movimiento Diferido del Tercero (**Visión Técnica**)
+
+## **Modelo de datos involucrado**
+La tabla que interviene en esta operación es:
+
+| TABLA | DESCRIPCIÓN |
+|:--- |:--- |
+| ML_THP_NWT_XX_CNT              | TABLA BUZON CONTACTOS DE TERCEROS                                                                   |
+
+| COLUMNA | CAMBIA VALOR | MOTIVO/VALOR | OBLIGATORIA | COMENTARIO |
+|:--- |:---: |:--- |:---: |:--- |
+| BTC_IDN_VAL | S | N.A. | SI | IDENTIFICADOR | 
+| SQN_VAL | S | N.A. | SI | SECUENCIA | 
+| CMP_VAL | S | N.A. | SI | COMPANIA | 
+| THP_DCM_TYP_VAL | S | N.A. | SI | TIPO DEL DOCUMENTO DEL TERCERO | 
+| THP_DCM_VAL | S | N.A. | SI | DOCUMENTO DEL TERCERO | 
+| THP_ACV_VAL | S | N.A. | SI | ACTIVIDAD TERCERO | 
+| CNH_SQN_VAL | S | N.A. | SI | SECUENCIA DEL MEDIO DE CONTACTO | 
+| VLD_DAT | S | N.A. | SI | FECHA VALIDEZ | 
+| IDN_THP_VAL | S | N.A. | NO | IDENTIFICADOR TERCERO | 
+| CNH_TYP_VAL | S | N.A. | SI | TIPO DE MEDIO DE CONTACTO | 
+| CNH_USE_TYP_VAL | S | N.A. | SI | TIPO DE USO DEL MEDIO DE CONTACTO | 
+| CNH_TXT_VAL | S | N.A. | SI | VALOR DEL MEDIO DE CONTACTO | 
+| CNH_NAM | S | N.A. | NO | NOMBRE DEL MEDIO DE CONTACTO | 
+| PST_TYP_VAL | S | N.A. | NO | TIPO DE CARGO EN LA EMPRESA | 
+| EXT_CNT_DPR_VAL | S | N.A. | NO | EXTENSION DEPARTAMENTO DE CONTACTO | 
+| DFL_CNH | S | N.A. | SI | REGISTRO POR DEFECTO PARA EL TIPO DE MEDIO DE CONTACTO | 
+| PTY_CNH | S | N.A. | SI | MEDIO DE CONTACTO PRIORITARIO | 
+| DSB_ROW | S | N.A. | SI | FILA DESHABILITADA | 
+| CNH_CCK | S | N.A. | SI | MEDIO DE CONTACTO COMPROBADO | 
+| USR_VAL | S | N.A. | SI | USUARIO QUE ACTUALIZO LA FILA | 
+| MDF_DAT | S | N.A. | SI | FECHA MODIFICACION | 
+| PRC_THD_VAL | S | N.A. | NO | HILO | 
+| PRC_STS_VAL | S | N.A. | NO | SITUACION DEL PROCESO | 
+| ACN_ORG_VAL | S | N.A. | NO | ACCION ORIGEN | 
+| ERR_IDN_VAL | S | N.A. | NO | IDENTIFICADOR INTERNO DEL ERROR | 
+| OBS_VAL | S | N.A. | NO | OBSERVACIONES | 
+| CNT_PST_VAL | S | N.A. | NO | CARGO DEL CONTACTO | 
+| CNT_DPR_VAL | S | N.A. | NO | DEPARTAMENTO DEL CONTACTO | 
+| CNT_FRS_SCN_SRN | S | N.A. | NO | PRIMER Y SEGUNDO APELLIDO DEL CONTACTO | 
+| CNT_DCM_TYP_VAL | S | N.A. | NO | TIPO DE DOCUMENTO DEL CONTACTO | 
+| CNT_DCM_VAL | S | N.A. | NO | DOCUMENTO DEL CONTACTO | 
+| CNT_CNY_VAL | S | N.A. | NO | PAIS DEL CONTACTO | 
+| RFR_THP | S | N.A. | SI | TERCERO DE REFERENCIA | 

@@ -1,0 +1,52 @@
+![Imagen LOGO](./00-Imagen/logo-TRON.png){ width="596" height="159" style="display: block; margin: 0 auto" }
+
+# DETALLAR Información Perfil Analítico del Asegurado en el Movimiento Diferido del Tercero (**Visión Técnica**)
+
+## **Modelo de datos involucrado**
+La tabla que interviene en esta operación es:
+
+| TABLA | DESCRIPCIÓN |
+|:--- |:--- |
+| ML_TPD_NWT_XX_ALP              | TABLA BUZON DEFINICION PERFIL ANALITICO                                                             |
+
+| COLUMNA | CAMBIA VALOR | MOTIVO/VALOR | OBLIGATORIA | COMENTARIO |
+|:--- |:---: |:--- |:---: |:--- |
+| BTC_IDN_VAL | S | N.A. | SI | IDENTIFICADOR | 
+| SQN_VAL | S | N.A. | SI | SECUENCIA | 
+| CMP_VAL | S | N.A. | SI | COMPANIA | 
+| THP_DCM_TYP_VAL | S | N.A. | SI | TIPO DEL DOCUMENTO DEL TERCERO | 
+| THP_DCM_VAL | S | N.A. | SI | DOCUMENTO DEL TERCERO | 
+| VLD_DAT | S | N.A. | SI | FECHA VALIDEZ | 
+| PRC_THD_VAL | S | N.A. | NO | HILO | 
+| PRC_STS_VAL | S | N.A. | NO | SITUACION DEL PROCESO | 
+| CTV_VAL | S | N.A. | NO | CLTV | 
+| SRD_PER | S | N.A. | NO | PROBABILIDAD ABANDONO | 
+| UPS_MOT_PER | S | N.A. | NO | PROBABILIDAD UP SELLING AUTO | 
+| UPS_HOM_PER | S | N.A. | NO | PROBABILIDAD UP SELLING HOGAR | 
+| UPS_HLT_PER | S | N.A. | NO | PROBABILIDAD UP SELLING SALUD | 
+| CRG_AUT_PER | S | N.A. | NO | PROBABILIDAD CROSS SELLING AUTO | 
+| CRG_HOM_PER | S | N.A. | NO | PROBABILIDAD CROSS SELLING HOGAR | 
+| CRG_HLT_PER | S | N.A. | NO | PROBABILIDAD CROSS SELLING SALUD | 
+| SAR_IDX_VAL | S | N.A. | NO | INDICADOR SATURACION | 
+| RLN_IDX_VAL | S | N.A. | NO | INDICE RELACION | 
+| IGR_VAL | S | N.A. | NO | INTEGRALIDAD | 
+| BNF_QNT | S | N.A. | NO | CANTIDAD DE BENEFICIARIOS | 
+| HNL_TYP_VAL | S | N.A. | NO | CANAL PREFERIDO | 
+| DVC_TYP_VAL | S | N.A. | NO | DISPOSITIVO PREFERIDO | 
+| CDR_VAL | S | N.A. | NO | CREDIT SCORE | 
+| HOR_DAY_VAL | S | N.A. | NO | HORA DIA | 
+| RNY_VAL | S | N.A. | NO | RECURRENCIA | 
+| FRY_VAL | S | N.A. | NO | FRECUENCIA VISITA | 
+| MDV_VAL | S | N.A. | NO | VISITANTES MULTIDISPOSITIVO | 
+| WEB_TIM_VAL | S | N.A. | NO | TIEMPO EN LA WEB | 
+| SNS_VAL | S | N.A. | NO | SECCIONS SITE | 
+| WEB_DVC_TYP_VAL | S | N.A. | NO | DISPOSITIVO EN LA WEB | 
+| FWR_VAL | S | N.A. | NO | FOLLOWERS | 
+| HNL_SBB_VAL | S | N.A. | NO | CHANNEL SUBSCRIBERS | 
+| APL_ENM_VAL | S | N.A. | NO | APP ENGAGEMENT | 
+| CUS_SGM_TYP_VAL | S | N.A. | NO | IDENTIFICADOR SEGMENTACION CLIENTE | 
+| DSB_ROW | S | N.A. | SI | FILA DESHABILITADA | 
+| USR_VAL | S | N.A. | SI | USUARIO QUE ACTUALIZO LA FILA | 
+| MDF_VAL | S | N.A. | SI | FECHA MODIFICACION | 
+| ACN_ORG_VAL | S | N.A. | NO | ACCION ORIGEN | 
+| ERR_IDN_VAL | S | N.A. | NO | IDENTIFICADOR INTERNO DEL ERROR | 

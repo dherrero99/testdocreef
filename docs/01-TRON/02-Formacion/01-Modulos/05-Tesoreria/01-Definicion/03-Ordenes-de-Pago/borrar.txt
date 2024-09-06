@@ -1,0 +1,4 @@
+total 0
+drwx------  3 albertorodrigodefrutos  staff   96 18 may 12:52 .
+drwx------  6 albertorodrigodefrutos  staff  192 18 may 12:47 ..
+-rw-r--r--  1 albertorodrigodefrutos  staff    0 18 may 12:52 borrar.txt

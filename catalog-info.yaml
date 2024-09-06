@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "DOCUMENTACIÓN REEF"
+  description: "DOCUMENTACIÓN REEF"
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: documentation
+  lifecycle: wip
+  owner: "map-capacitacion"

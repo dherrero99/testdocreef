@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: "DOCUMENTACIÓN REEF"
+  name: techdocs-cicd
   description: "DOCUMENTACIÓN REEF"
   annotations:
     backstage.io/techdocs-ref: dir:.
